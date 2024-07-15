@@ -10,7 +10,7 @@ public class Validar {
    PreparedStatement ps; //Ejecuta una consulta o una sentencia SQL
    ResultSet rs; //Objeto que tendrá la capacidad de obtener la respuesta desde la bd
    Connection con; //Interfaz que permite establecer la conexión con la bd
-   Conexion cn = new Conexion();
+   Conexion cn = new Conexion(); // Cramos una variable tipo Conexion 
    
 
     public int validar(Persona per){
