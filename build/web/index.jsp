@@ -39,7 +39,10 @@
                      <br>
                      
                      <input type="submit" class="btn btn-primary" name="accion" value="Ingresar">
+                     
                    </form>
+                 <br>
+                   <a href="PersonNew.jsp">Registrarse</a>
                 </div>
                 
               <div class="col">

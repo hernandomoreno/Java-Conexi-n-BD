@@ -29,6 +29,7 @@
                     <a class="dropdown-item">Desea Salir?</a>
                     <div class="dropdown-divider"></div>
                     <a href="Controlador?accion=Salir" class="dropdown-item">Salir</a>   <%--  <a href="index.jsp" class="dropdown-item"   --%>
+                    <a href="Controlador?accion=eliminar" class="dropdown-item">Novedades usuarios</a>
                 </div>
             </div>
         </nav>

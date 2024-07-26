@@ -4,6 +4,7 @@
  */
 package modelo;
 
+// Importamos las classes necesarias
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -23,7 +24,7 @@ public class Conexion {
     Connection conex; //Creamos un objeto tipo conexión
     Statement statement; //Creamos un objeto tipo statement que permita ejecutar sentencias sql a traves de la coenxión establecida
     ResultSet rs; //apuntador de tipo Cursor que está direccionado a la primera posición de toda la estructura tabular que está referenciando
-    String driver = "com.mysql.cj.jdbc.Driver";
+    String driver = "com.mysql.cj.jdbc.Driver"; //Cargamos el controlador
     
     // Creamos un método conexión tipo Connection
     public Connection Conexion(){  
